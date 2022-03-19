@@ -14,4 +14,23 @@
 import classvc.util.Test.*;
 import classvoice.join.Util.LangJDA.*;
 package classvc.util.*
-function::<Pending>
+//<{
+public class Join() {
+error: {
+Client.SendMessage('[ERROR] You must Join Voice Channel Client First')
+Client.SendMessage('[ERROR] Error with log:' + '\n' + ${error})
+}
+Client.Send(events.JoinVC(author.voiceID(user.clientID), events.MuteBot(true))
+Client.Get(author, events, user)
+}
+
+//}>
+/*
+<{...}> Discord JDA Tester
+ClassVC[Bot]
+[ERROR] You must Join Voice Channel Client First
+[ERROR] Error with log:
+NoN
+ClassVC[Bot]
+🌻Joined
+*/
