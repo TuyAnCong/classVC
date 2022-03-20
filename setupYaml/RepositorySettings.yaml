@@ -1,0 +1,12 @@
+# Support Run Platform
+suprun: run app.js
+# Yaml Settings
+file: supportSettings.yaml
+folder: setupYaml
+# Yaml Setup File A User Interface Runned a Codeblock
+fileRun: app.js
+fileURL: http://c.ServerGo.vh.ph/app/js/code.js
+fileExecShell: echo "Successfully Runned"
+fileRun: importFile.ts
+fileURL: http://c.ServerGo.vh.ph/import/ts/code.ts
+fileExecShell: echo "Successfully Runned"
